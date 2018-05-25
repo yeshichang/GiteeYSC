@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B36B3857B81E6AD2F3DED65 /* Pods_GiteeYSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABB55C3F98C5F5BCC51668F /* Pods_GiteeYSC.framework */; };
+		526645A020B7B77800104E6D /* YSCMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5266459F20B7B77800104E6D /* YSCMeTableViewCell.swift */; };
+		526645A420B8051200104E6D /* YSCPJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526645A320B8051200104E6D /* YSCPJViewController.swift */; };
+		526645A620B8060300104E6D /* YSCPJViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526645A520B8060300104E6D /* YSCPJViewModel.swift */; };
+		526645A820B8064700104E6D /* YSCPJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526645A720B8064700104E6D /* YSCPJ.swift */; };
+		526B070F20B577EE00AF75C9 /* YSCUserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B070E20B577EE00AF75C9 /* YSCUserAccountViewModel.swift */; };
+		526B071120B5793500AF75C9 /* YSCUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B071020B5793500AF75C9 /* YSCUserAccount.swift */; };
+		52EEB33E20B40440006809AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB33D20B40440006809AF /* AppDelegate.swift */; };
+		52EEB34520B40442006809AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EEB34420B40442006809AF /* Assets.xcassets */; };
+		52EEB34820B40442006809AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EEB34620B40442006809AF /* LaunchScreen.storyboard */; };
+		52EEB35F20B4139C006809AF /* YSCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB35E20B4139C006809AF /* YSCNavigationController.swift */; };
+		52EEB36120B41497006809AF /* YSCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB36020B41497006809AF /* YSCTabBarController.swift */; };
+		52EEB36420B41740006809AF /* YSCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB36320B41740006809AF /* YSCBaseViewController.swift */; };
+		52EEB36820B41785006809AF /* YSCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB36720B41785006809AF /* YSCHomeViewController.swift */; };
+		52EEB36A20B41790006809AF /* YSCMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB36920B41790006809AF /* YSCMeViewController.swift */; };
+		52EEB36E20B425AB006809AF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB36D20B425AB006809AF /* UIColor+Extension.swift */; };
+		52EEB37220B4FC77006809AF /* UIWindow+Extentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB37120B4FC77006809AF /* UIWindow+Extentsion.swift */; };
+		52EEB37520B5130C006809AF /* YSCLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB37420B5130C006809AF /* YSCLoginViewController.swift */; };
+		52EEB37820B55C2E006809AF /* YSCNetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB37720B55C2E006809AF /* YSCNetWorkTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BA5386E2FE083FC883D7F59 /* Pods-GiteeYSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiteeYSC.release.xcconfig"; path = "Pods/Target Support Files/Pods-GiteeYSC/Pods-GiteeYSC.release.xcconfig"; sourceTree = "<group>"; };
+		5266459F20B7B77800104E6D /* YSCMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCMeTableViewCell.swift; sourceTree = "<group>"; };
+		526645A320B8051200104E6D /* YSCPJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCPJViewController.swift; sourceTree = "<group>"; };
+		526645A520B8060300104E6D /* YSCPJViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCPJViewModel.swift; sourceTree = "<group>"; };
+		526645A720B8064700104E6D /* YSCPJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCPJ.swift; sourceTree = "<group>"; };
+		526B070E20B577EE00AF75C9 /* YSCUserAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCUserAccountViewModel.swift; sourceTree = "<group>"; };
+		526B071020B5793500AF75C9 /* YSCUserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCUserAccount.swift; sourceTree = "<group>"; };
+		52EEB33A20B40440006809AF /* GiteeYSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiteeYSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EEB33D20B40440006809AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52EEB34420B40442006809AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52EEB34720B40442006809AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52EEB34920B40442006809AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EEB35E20B4139C006809AF /* YSCNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCNavigationController.swift; sourceTree = "<group>"; };
+		52EEB36020B41497006809AF /* YSCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCTabBarController.swift; sourceTree = "<group>"; };
+		52EEB36320B41740006809AF /* YSCBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCBaseViewController.swift; sourceTree = "<group>"; };
+		52EEB36720B41785006809AF /* YSCHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCHomeViewController.swift; sourceTree = "<group>"; };
+		52EEB36920B41790006809AF /* YSCMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCMeViewController.swift; sourceTree = "<group>"; };
+		52EEB36D20B425AB006809AF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		52EEB37120B4FC77006809AF /* UIWindow+Extentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extentsion.swift"; sourceTree = "<group>"; };
+		52EEB37420B5130C006809AF /* YSCLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCLoginViewController.swift; sourceTree = "<group>"; };
+		52EEB37720B55C2E006809AF /* YSCNetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCNetWorkTools.swift; sourceTree = "<group>"; };
+		52EEB37920B56639006809AF /* GiteeYSC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GiteeYSC-Bridging-Header.h"; sourceTree = "<group>"; };
+		6ABB55C3F98C5F5BCC51668F /* Pods_GiteeYSC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiteeYSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A567FE8735AF6B9C8194F56C /* Pods-GiteeYSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiteeYSC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GiteeYSC/Pods-GiteeYSC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EEB33720B40440006809AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B36B3857B81E6AD2F3DED65 /* Pods_GiteeYSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E13A20DF08F82D31A0F52B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A567FE8735AF6B9C8194F56C /* Pods-GiteeYSC.debug.xcconfig */,
+				3BA5386E2FE083FC883D7F59 /* Pods-GiteeYSC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5266459E20B7B71B00104E6D /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5266459F20B7B77800104E6D /* YSCMeTableViewCell.swift */,
+			);
+			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+		526B070B20B5717300AF75C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB36620B41756006809AF /* Me */,
+				52EEB36520B4174B006809AF /* Home */,
+				52EEB37320B512F3006809AF /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		526B070C20B5717C00AF75C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				526B071020B5793500AF75C9 /* YSCUserAccount.swift */,
+				526645A720B8064700104E6D /* YSCPJ.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		526B070D20B5718400AF75C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				526B070E20B577EE00AF75C9 /* YSCUserAccountViewModel.swift */,
+				526645A520B8060300104E6D /* YSCPJViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52EEB33120B40440006809AF = {
+			isa = PBXGroup;
+			children = (
+				52EEB33C20B40440006809AF /* GiteeYSC */,
+				52EEB33B20B40440006809AF /* Products */,
+				34E13A20DF08F82D31A0F52B /* Pods */,
+				CEC641C0733CD34C3675F1B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52EEB33B20B40440006809AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB33A20B40440006809AF /* GiteeYSC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EEB33C20B40440006809AF /* GiteeYSC */ = {
+			isa = PBXGroup;
+			children = (
+				526B070D20B5718400AF75C9 /* ViewModel */,
+				526B070C20B5717C00AF75C9 /* Model */,
+				526B070B20B5717300AF75C9 /* View */,
+				52EEB37620B55C13006809AF /* Tools */,
+				52EEB36F20B42601006809AF /* Define */,
+				52EEB36B20B42570006809AF /* Utils */,
+				52EEB35320B40E27006809AF /* Main */,
+				52EEB34F20B4067A006809AF /* Supporting Files */,
+			);
+			path = GiteeYSC;
+			sourceTree = "<group>";
+		};
+		52EEB34F20B4067A006809AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB37920B56639006809AF /* GiteeYSC-Bridging-Header.h */,
+				52EEB33D20B40440006809AF /* AppDelegate.swift */,
+				52EEB34420B40442006809AF /* Assets.xcassets */,
+				52EEB34620B40442006809AF /* LaunchScreen.storyboard */,
+				52EEB34920B40442006809AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52EEB35320B40E27006809AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB36320B41740006809AF /* YSCBaseViewController.swift */,
+				52EEB35E20B4139C006809AF /* YSCNavigationController.swift */,
+				52EEB36020B41497006809AF /* YSCTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		52EEB36520B4174B006809AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB36720B41785006809AF /* YSCHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		52EEB36620B41756006809AF /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5266459E20B7B71B00104E6D /* tableViewCell */,
+				52EEB36920B41790006809AF /* YSCMeViewController.swift */,
+				526645A320B8051200104E6D /* YSCPJViewController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		52EEB36B20B42570006809AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB37020B4FC5A006809AF /* window */,
+				52EEB36C20B42597006809AF /* color */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		52EEB36C20B42597006809AF /* color */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB36D20B425AB006809AF /* UIColor+Extension.swift */,
+			);
+			path = color;
+			sourceTree = "<group>";
+		};
+		52EEB36F20B42601006809AF /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		52EEB37020B4FC5A006809AF /* window */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB37120B4FC77006809AF /* UIWindow+Extentsion.swift */,
+			);
+			path = window;
+			sourceTree = "<group>";
+		};
+		52EEB37320B512F3006809AF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB37420B5130C006809AF /* YSCLoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		52EEB37620B55C13006809AF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				52EEB37720B55C2E006809AF /* YSCNetWorkTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CEC641C0733CD34C3675F1B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABB55C3F98C5F5BCC51668F /* Pods_GiteeYSC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EEB33920B40440006809AF /* GiteeYSC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EEB34C20B40442006809AF /* Build configuration list for PBXNativeTarget "GiteeYSC" */;
+			buildPhases = (
+				5C212DADFC15C1108AB5C74B /* [CP] Check Pods Manifest.lock */,
+				52EEB33620B40440006809AF /* Sources */,
+				52EEB33720B40440006809AF /* Frameworks */,
+				52EEB33820B40440006809AF /* Resources */,
+				AE438988363F1825118F2BCB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiteeYSC;
+			productName = GiteeYSC;
+			productReference = 52EEB33A20B40440006809AF /* GiteeYSC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EEB33220B40440006809AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YSC;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "叶世昌";
+				TargetAttributes = {
+					52EEB33920B40440006809AF = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 52EEB33520B40440006809AF /* Build configuration list for PBXProject "GiteeYSC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52EEB33120B40440006809AF;
+			productRefGroup = 52EEB33B20B40440006809AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EEB33920B40440006809AF /* GiteeYSC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EEB33820B40440006809AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EEB34820B40442006809AF /* LaunchScreen.storyboard in Resources */,
+				52EEB34520B40442006809AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C212DADFC15C1108AB5C74B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiteeYSC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE438988363F1825118F2BCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GiteeYSC/Pods-GiteeYSC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiteeYSC/Pods-GiteeYSC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EEB33620B40440006809AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EEB36E20B425AB006809AF /* UIColor+Extension.swift in Sources */,
+				52EEB35F20B4139C006809AF /* YSCNavigationController.swift in Sources */,
+				52EEB33E20B40440006809AF /* AppDelegate.swift in Sources */,
+				526B070F20B577EE00AF75C9 /* YSCUserAccountViewModel.swift in Sources */,
+				526645A420B8051200104E6D /* YSCPJViewController.swift in Sources */,
+				52EEB37820B55C2E006809AF /* YSCNetWorkTools.swift in Sources */,
+				52EEB36A20B41790006809AF /* YSCMeViewController.swift in Sources */,
+				52EEB36420B41740006809AF /* YSCBaseViewController.swift in Sources */,
+				52EEB36120B41497006809AF /* YSCTabBarController.swift in Sources */,
+				52EEB37220B4FC77006809AF /* UIWindow+Extentsion.swift in Sources */,
+				526645A620B8060300104E6D /* YSCPJViewModel.swift in Sources */,
+				526645A020B7B77800104E6D /* YSCMeTableViewCell.swift in Sources */,
+				52EEB37520B5130C006809AF /* YSCLoginViewController.swift in Sources */,
+				526B071120B5793500AF75C9 /* YSCUserAccount.swift in Sources */,
+				52EEB36820B41785006809AF /* YSCHomeViewController.swift in Sources */,
+				526645A820B8064700104E6D /* YSCPJ.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52EEB34620B40442006809AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EEB34720B40442006809AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EEB34A20B40442006809AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52EEB34B20B40442006809AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EEB34D20B40442006809AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A567FE8735AF6B9C8194F56C /* Pods-GiteeYSC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U55T474SL;
+				INFOPLIST_FILE = GiteeYSC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yeshichang.GiteeYSC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiteeYSC/GiteeYSC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52EEB34E20B40442006809AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA5386E2FE083FC883D7F59 /* Pods-GiteeYSC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U55T474SL;
+				INFOPLIST_FILE = GiteeYSC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yeshichang.GiteeYSC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiteeYSC/GiteeYSC-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EEB33520B40440006809AF /* Build configuration list for PBXProject "GiteeYSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EEB34A20B40442006809AF /* Debug */,
+				52EEB34B20B40442006809AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EEB34C20B40442006809AF /* Build configuration list for PBXNativeTarget "GiteeYSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EEB34D20B40442006809AF /* Debug */,
+				52EEB34E20B40442006809AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52EEB33220B40440006809AF /* Project object */;
+}

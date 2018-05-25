@@ -1,0 +1,6 @@
+framework module Pods_GiteeYSC {
+  umbrella header "Pods-GiteeYSC-umbrella.h"
+
+  export *
+  module * { export * }
+}

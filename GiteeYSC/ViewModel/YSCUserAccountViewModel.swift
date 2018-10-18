@@ -31,7 +31,7 @@ class YSCUserAccountViewModel: NSObject {
         // 2. 如果没有过期，说明登录有效
         return account?.access_token != nil && !isExpired
     }
-    
+  
     
     /// 归档保存的路径 - 计算型属性(类似于有返回值的函数，可以让调用的时候，语义会更清晰)
     /// 如果在 OC 中，可以通过只读属性／函数的方式实现
@@ -78,7 +78,7 @@ class YSCUserAccountViewModel: NSObject {
 }
 
 extension YSCUserAccountViewModel {
-    
+
     
     /// 刷新token
     ///
@@ -117,7 +117,6 @@ extension YSCUserAccountViewModel {
                 return
             }
             
-
             self.loadUserInfo(result: result as! [String : AnyObject], finished: finished)
         }
     }

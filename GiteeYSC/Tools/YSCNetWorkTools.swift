@@ -11,7 +11,7 @@ import AFNetworking
 
 class YSCNetWorkTools: NSObject {
     
-    enum YSCNetWorkMethod {
+    enum YSCNetWorkMethod: NSInteger {
         case GET
         case POST
     }
@@ -30,7 +30,7 @@ class YSCNetWorkTools: NSObject {
 // MARK: - 用户 项目
 extension YSCNetWorkTools {
     
-    func loadUserPJ(callBack: @escaping (_ result : AnyObject?, _ error : Error?)-> Void) -> Void {
+    func loadUserPJ(callBack: @escaping (_ result : AnyObject?, _ error : Error?) -> Void) -> Void {
         guard let token = YSCUserAccountViewModel.shared.accessToken else {
             print("token失效")
             return
@@ -45,7 +45,7 @@ extension YSCNetWorkTools {
                       "sort" : "full_name",
                       "direction" : "asc",
                       "page" : 1,
-                      "per_page" : 20] as [String : Any]
+                      "per_page" : 20] as [String : AnyObject]
         
         let URLString = "/api/v5/users/\(username!)/repos"
         
@@ -56,7 +56,7 @@ extension YSCNetWorkTools {
 // MARK: - 用户 资料
 extension YSCNetWorkTools {
     
-    func loadUserInfo(callBack: @escaping (_ result : AnyObject?, _ error : Error?)-> Void) -> Void {
+    func loadUserInfo(callBack: @escaping (_ result : AnyObject?, _ error : Error?) -> Void) {
         
         guard let token = YSCUserAccountViewModel.shared.accessToken else {
             print("token失效")
@@ -87,10 +87,10 @@ extension YSCNetWorkTools {
         
         // 创建参数字典
         let parameters = ["grant_type" : "authorization_code",
-                         "code" : code,
-                         "client_id" : client_id,
-                         "redirect_uri" : redirect_uri,
-                         "client_secret" : client_secret]
+                          "code" : code,
+                          "client_id" : client_id,
+                          "redirect_uri" : redirect_uri,
+                          "client_secret" : client_secret]
 
         request(method: .POST, URLString: "oauth/token?", parameters: parameters as [String : AnyObject], finished: callBack)
         
@@ -110,7 +110,6 @@ extension YSCNetWorkTools {
 // MARK: - 封装 afn 网络方法
 extension YSCNetWorkTools {
    
-    
     /// 网络请求
     ///
     /// - Parameters:
@@ -118,7 +117,7 @@ extension YSCNetWorkTools {
     ///   - URLString: url
     ///   - parameters: parameters
     ///   - finished: 完成回调
-    private func request(method: YSCNetWorkMethod, URLString: String, parameters: [String: AnyObject]?, finished: @escaping (_ result : AnyObject?, _ error : Error?)-> Void) {
+    private func request(method: YSCNetWorkMethod, URLString: String, parameters: [String: AnyObject]?, finished: @escaping (_ result : AnyObject?, _ error : Error?) -> Void) {
         // 显示网络指示菊花
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
         
